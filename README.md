@@ -11,7 +11,7 @@ sudo apt-get upgrade
 sudo apt-get install chromium-browser git 
 ```
 
-## Prepare Visual Studio Code (https://code.visualstudio.com)
+### Prepare Visual Studio Code (https://code.visualstudio.com)
 Install Visual Studio Code by open a terminal and type:
 ```bash
 cd Downloads
@@ -25,7 +25,7 @@ ext install ms-azuretools.vscode-azurefunctions
 ext install ms-python.python
 ```
 
-## Install Azure Function Core Tools:
+### Install Azure Function Core Tools:
 Open a terminal and type:
 ```bash
 cd Downloads && wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb && sudo dpkg -i packages-microsoft-prod.deb && sudo apt-get update && sudo apt-get install azure-functions-core-tools
@@ -33,7 +33,7 @@ cd Downloads && wget -q https://packages.microsoft.com/config/ubuntu/18.04/packa
 
 
 
-## Install required python version:
+### Install required python version:
 Step 1 - Get numbers of cpu cores for the -j parameter by open a terminal and type:
 ```bash
 nproc 
@@ -44,7 +44,7 @@ sudo apt update && sudo apt install build-essential zlib1g-dev libncurses5-dev l
 ```
 
 
-## Check if all requirements are available:
+### Check if all requirements are available:
 Open a terminal and type:
 ```bash
 func
@@ -53,19 +53,19 @@ python3.7 --version
 Open a terminal and type:
 ```
 
-## Documentation
+### Documentation
 https://docs.microsoft.com/en-us/azure/python/tutorial-vs-code-serverless-python-01
 https://linuxize.com/post/how-to-install-python-3-7-on-ubuntu-18-04/
 https://docs.microsoft.com/en-us/azure/azure-functions/functions-openapi-definition
 
 
-## Optional
+### Optional
 Disable Gnome animations:
 ```bash
 gsettings set org.gnome.desktop.interface enable-animations false
 ```
 
-# Azure APIM test:
+## Azure APIM test:
 {
 "subject": "6",
 "to":"12",
