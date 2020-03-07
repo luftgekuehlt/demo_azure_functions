@@ -1,6 +1,8 @@
 # Azure Functions Set Up
 
-## Install Chrome browser and Git
+https://azure.microsoft.com/en-us/services/functions/
+
+### Install Chrome browser and Git
 
 Open a terminal and type:
 ```bash
