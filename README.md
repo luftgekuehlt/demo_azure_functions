@@ -2,9 +2,12 @@
 
 https://azure.microsoft.com/en-us/services/functions/
 
+### Install Ubuntu on your local machine using Hyper-V
+Important: The option "Require my password to login" must be selected.
+
 ### Install Chrome browser and Git
 
-Open a terminal and type:
+Open a terminal (press: cntrl + alt + t) and type:
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
