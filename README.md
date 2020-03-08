@@ -1,12 +1,16 @@
 # Azure Functions Set Up
-https://portal.azure.com
-https://azure.microsoft.com/en-us/services/functions/
+- https://azure.microsoft.com/en-us/services/functions/
+- https://portal.azure.com
+
+## Install requirements
+Usefull shortcuts:
+- Open a terminal in Ubuntu: cntrl + alt + t
+- Paste something inside a terminal: cntrl + shift + v
 
 ### Install Ubuntu on your local machine using Hyper-V
-Important: The option "Require my password to login" must be selected.
+Important: The option "Require my password to login" must be selected during installation.
 
-### Install Chrome browser and Git
-
+### Update installed packages and install Chrome and Git
 Open a terminal (press: cntrl + alt + t) and type:
 ```bash
 sudo apt-get update
@@ -39,8 +43,7 @@ Open a terminal and type:
 ```bash
 func
 git
-python3.7 --version
-Open a terminal and type:
+python3 --version
 ```
 
 ### Documentation
@@ -65,15 +68,12 @@ sudo apt update && sudo apt install build-essential zlib1g-dev libncurses5-dev l
 ```bash
 gsettings set org.gnome.desktop.interface enable-animations false
 ```
-### Azure APIM test:
-{
-"subject": "6",
-"to":"12",
-"body":"9"
-}
 
+### Azure APIM test:
+```json
 {
 "subject": "123456789012345",
 "to":"-1",
 "body":"-1"
 }
+```
