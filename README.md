@@ -1,5 +1,5 @@
 # Azure Functions Set Up
-
+https://portal.azure.com
 https://azure.microsoft.com/en-us/services/functions/
 
 ### Install Ubuntu on your local machine using Hyper-V
@@ -57,9 +57,9 @@ Open a terminal and type:
 ```
 
 ### Documentation
-https://docs.microsoft.com/en-us/azure/python/tutorial-vs-code-serverless-python-01
-https://linuxize.com/post/how-to-install-python-3-7-on-ubuntu-18-04/
-https://docs.microsoft.com/en-us/azure/azure-functions/functions-openapi-definition
+- https://docs.microsoft.com/en-us/azure/python/tutorial-vs-code-serverless-python-01
+- https://linuxize.com/post/how-to-install-python-3-7-on-ubuntu-18-04/
+- https://docs.microsoft.com/en-us/azure/azure-functions/functions-openapi-definition
 
 
 ### Optional
