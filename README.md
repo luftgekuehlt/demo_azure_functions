@@ -31,7 +31,7 @@ ext install ms-python.python
 ### Install Azure Function Core Tools:
 Open a terminal and type:
 ```bash
-cd Downloads && wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb && sudo dpkg -i packages-microsoft-prod.deb && sudo apt-get update && sudo apt-get install azure-functions-core-tools
+wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb && sudo dpkg -i packages-microsoft-prod.deb && sudo apt-get update && sudo apt-get install azure-functions-core-tools
 ```
 
 
