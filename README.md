@@ -38,6 +38,12 @@ Open a terminal and type:
 wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb && sudo dpkg -i packages-microsoft-prod.deb && sudo apt-get update && sudo apt-get install azure-functions-core-tools
 ```
 
+### Install python virtual environment
+Open a terminal and type:
+```bash
+sudo apt-get install python3-venv
+```
+
 ### Check if all requirements are available:
 Open a terminal and type:
 ```bash
